@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcaudete de la Jara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Alcaudete de la Jara</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#naturaleza">Naturaleza</a></li>
+                <li><a href="#fiestas">Fiestas</a></li>
+                <li><a href="#economia">Economía</a></li>
+                <li><a href="#clima">Clima</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>Alcaudete de la Jara es un municipio español situado en la provincia de Toledo, en la comunidad autónoma de Castilla-La Mancha. Su historia se remonta a la época de la Reconquista, cuando la zona fue repoblada por la Orden de Santiago. Durante siglos, Alcaudete de la Jara fue un importante enclave estratégico debido a su ubicación en la ruta hacia el sur de la península.</p>
+        <p>El nombre de Alcaudete proviene del árabe "al-qabdaq", que significa "el castillo". Durante la Edad Media, el pueblo fue fortificado para proteger a los habitantes de las incursiones musulmanas. En el siglo XVI, Alcaudete de la Jara experimentó un período de crecimiento económico gracias a la agricultura y la ganadería.</p>
+    </section>
+
+    <section id="naturaleza">
+        <h2>Naturaleza</h2>
+        <p>Alcaudete de la Jara se encuentra en una zona de gran riqueza natural, caracterizada por sus extensas dehesas, montes bajos y zonas de matorral. El entorno es ideal para actividades al aire libre como el senderismo, la observación de aves y la caza.</p>
+        <p>Entre las especies de fauna más destacadas se encuentran el ciervo, el jabalí y diversas aves rapaces. La flora local incluye encinas, alcornoques y retamas, que dotan al paisaje de una belleza singular.</p>
+    </section>
+
+    <section id="fiestas">
+        <h2>Fiestas y Tradiciones</h2>
+        <p>Las fiestas más importantes de Alcaudete de la Jara son las que se celebran en honor a San Andrés Apóstol, el patrón del pueblo. Estas fiestas tienen lugar en noviembre e incluyen procesiones, verbenas, concursos y actividades culturales.</p>
+        <p>Otras celebraciones destacadas son la Semana Santa, con sus procesiones religiosas, y las fiestas de verano, que suelen incluir eventos deportivos, conciertos y actividades para todas las edades.</p>
+    </section>
+
+    <section id="economia">
+        <h2>Economía</h2>
+        <p>La economía de Alcaudete de la Jara se basa principalmente en la agricultura y la ganadería. Los cultivos más importantes son los cereales, el olivo y la vid. También hay una importante actividad relacionada con la caza, dado que la zona es rica en fauna silvestre.</p>
+        <p>En los últimos años, se ha fomentado el turismo rural, aprovechando el entorno natural y las tradiciones locales. Los visitantes pueden disfrutar de alojamientos rurales, rutas de senderismo y actividades relacionadas con la naturaleza.</p>
+    </section>
+
+    <section id="clima">
+        <h2>Clima Actual</h2>
+        <div id="weather"></div>
+    </section>
+
+    <section id="mapa">
+        <h2>Mapa de Alcaudete de la Jara</h2>
+        <!-- <div id="map" style="height: 400px;"></div> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.053146269546!2d-4.87103378821005!3d39.78816511528965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6aa5dd22169537%3A0x7ca55b982b01d3bd!2sAyuntamiento%20de%20Alcaudete%20de%20la%20Jara.!5e0!3m2!1ses!2ses!4v1739258100877!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <!-- <img src="https://via.placeholder.com/400x300" alt="Imagen 1">
+            <img src="https://via.placeholder.com/400x300" alt="Imagen 2">
+            <img src="https://via.placeholder.com/400x300" alt="Imagen 3">
+            <img src="https://via.placeholder.com/400x300" alt="Imagen 4"> -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Localizacion: Plaza de D. Cesáreo Gómez Arroyo, 8, 45662 Alcaudete de la Jara, Toledo</p>
+        <p>Telefono: 925 85 30 03</p>
+        <p>Email:ayuntamiento@alcaudetedelajara.es</p>
+        <br><br>
+        <!-- <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form> -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alcaudete de la Jara. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY"></script>
+    <script src="script.js"></script>
+</body>
+</html>
